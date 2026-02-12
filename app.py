@@ -5,7 +5,7 @@ import re
 import io
 
 # 1. CONFIGURACIÓN DE PÁGINA
-st.set_page_config(page_title="Minka-Data Melgar", page_icon="💎", layout="wide")
+st.set_page_config(page_title="YANAPAY UGEL MELGAR", page_icon="💎", layout="wide")
 
 # Inicializamos la llave de reseteo si no existe
 if 'reset_key' not in st.session_state:
@@ -15,15 +15,15 @@ if 'reset_key' not in st.session_state:
 with st.sidebar:
     # Logo UGEL Melgar - Única ubicación para evitar duplicidad
     st.image("https://i.ibb.co/k2n2fHLZ/Logo-UGEL-Melgar-especial.png", width=180)
-    st.markdown("### **Área de Gestión Pedagógica**")
+    st.markdown("### **Tic Ugel Melgar**")
     st.markdown("---")
     
     # Bloque de Autoría Estilizado
     st.markdown("""
     <div style="font-size: 11px; line-height: 1.2; color: #555;">
-        <b>Autor:</b> Bernardo Bautista Gutiérrez<br>
-        <b>Email:</b> bbautistag@ugelmelgar.edu.pe<br>
-        <b>Cel:</b> 965 654 898
+        <b>Autor:</b> Humberto CHOQUEHUANCA MAMANI<br>
+        <b>Email:</b> ticg@ugelmelgar.edu.pe<br>
+        <b>Cel:</b> 963279819
     </div>
     """, unsafe_allow_html=True)
     
